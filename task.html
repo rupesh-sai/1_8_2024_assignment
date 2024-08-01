@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./index.js"></script>
+    <title>Document</title>
+    <style>
+        *{
+            /* font-size: 1.3rem; */
+            padding: 0;
+            margin: 0;
+        }
+      .nav-bar-header {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+      }
+      input[type="text"] {
+        border-radius: 10px;
+        padding: 5px;
+      }
+      .nav-bar-header > div {
+        height: 100%;
+        padding: 5px;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+      }
+      .nav-bar-header > div:hover {
+        background-color: green;
+        color: white;
+      }
+      .nav-links {
+        display: flex;
+        gap: 30px;
+      }
+      .header {
+        display: flex;
+        justify-content: space-between;
+      }
+      img {
+        width: 80px;
+      }
+      .nav-links > div {
+        align-self: center;
+        
+        padding: 5px;
+        border-radius: 10px;
+      }
+      #credentials {
+        display: flex;
+        gap: 5px;
+        border-radius: 20px;
+        border: 2px;
+        background-color: rgb(115, 193, 115);
+        padding: 0 !important;
+      }
+      .login{
+        background-color: green;
+        color: white;
+        height: 100%;
+        padding: 10px;
+        padding-right: 25px;
+        border-radius: 20px;
+      }
+      .signup{
+        padding: 10px 0;
+        padding-right: 10px;
+        padding-left: 0;
+      }
+
+      .credentials > div {
+        align-self: center;
+      }
+      .side::after{
+        content: '';
+        margin: 0 2px;
+        border: 6px solid;
+        margin-top: 5px;
+        border-color: transparent ;
+        border-top-color: black;
+      }
+      .side:hover::after {
+        border-color: transparent;
+        border-bottom-color: white;
+      }
+      .nav-links > div:hover{
+        background-color: rgb(179, 175, 175);
+      }
+      ul{
+        display: flex;
+        width: 100%;
+        padding: 0;
+        gap: 15px;
+        background-color: black;
+        color: white;
+        padding: 5px;
+        overflow-y: scroll;
+        
+      }
+      ul li{
+        list-style-type: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="nav-bar-header">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToQ6lAbHWyTTKFRQke9H8avv7W7LMk1klQLA&s"
+            alt=""
+          />
+          <div class="side">Tutorials</div>
+          <div class="side">Exercises</div>
+          <div class="side">Services</div>
+          <div class="side">Certificates</div>
+          <div>
+            <form action="">
+              <input type="text" placeholder="Search your query" />
+            </form>
+          </div>
+        </div>
+        <div class="nav-links">
+          <div>Spaces</div>
+          <div>Get Certified</div>
+          <div id="credentials">
+            <div class="login">Login</div>
+            <div class="signup">Signup</div>
+          </div>
+        </div>
+      </div>
+      <ul>
+        <li>HTML</li>
+        <li>css</li>
+        <li>javascript</li>
+        <li>java</li>
+        <li>cpp</li>
+        <li>bootstrap</li>
+        <li>php</li>
+        <li>node</li>
+        <li>c</li>
+        <li>c#</li>
+        <li>sql</li>
+        <li>mysql</li>
+        <li>HTML</li>
+        <li>css</li>
+        <li>javascript</li>
+        <li>java</li>
+        <li>cpp</li>
+        <li>bootstrap</li>
+        <li>php</li>
+        <li>node</li>
+        <li>c</li>
+        <li>c#</li>
+        <li>sql</li>
+        <li>mysql</li>
+        <li>css</li>
+        <li>javascript</li>
+        <li>java</li>
+        <li>cpp</li>
+        <li>bootstrap</li>
+        <li>php</li>
+        <li>node</li>
+        <li>c</li>
+        <li>c#</li>
+        <li>sql</li>
+        <li>mysql</li>
+      </ul>
+    </header>
+  </body>
+</html>
